@@ -11,7 +11,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
-
+    <link href="css/animation.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -44,16 +45,16 @@
             <div class="title-text">
                 <h1>Michelle Aurelia</h1>
             </div>
-            <div class="subtitle-text">
-                <h2>an aspiring Designer specializing in User Interface and an enthusiast about designing aesthetically pleasing yet user friendly digital design.</h2>
+            <div class="subtitle-text" >
+                <h2 data-aos="fade-up">an aspiring Designer specializing in User Interface and an enthusiast about designing aesthetically pleasing yet user friendly digital design.</h2>
             </div>
         </div>
         <!-- Added Interactive Element Here -->
-        <div class="flower">
-            <div class="flower-top">
+        <div class="flower" >
+            <div class="flower-top" data-aos="flower-animation-top" data-aos-duration="2000">
                 <img src="img/Asset 2.png" alt="Flower image that I draw version one">
             </div>
-            <div class="flower-bottom">
+            <div class="flower-bottom" data-aos="flower-animation-bottom" data-aos-duration="2000">
                 <img src="img/Asset 1.png" alt="Flower image that I draw version one">
             </div>
         </div>
@@ -98,6 +99,9 @@
         </div>
     </footer>
 
-        
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     </body>
 </html>

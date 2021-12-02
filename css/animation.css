@@ -57,3 +57,21 @@
 
 @keyframes BspewsIP_draw{100%{stroke-dashoffset:0;}}@keyframes BspewsIP_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}
   
+[data-aos="flower-animation-top"] {
+    transform: translate(100px, -100px);
+    transition-property: transform;
+}
+
+[data-aos="flower-animation-top"].aos-animate {
+    transform: translateZ(0);
+}
+
+[data-aos="flower-animation-bottom"] {
+    transform: translate(-40px, -100px);
+    transition-property: transform;
+}
+
+[data-aos="flower-animation-bottom"].aos-animate {
+    transform: translateZ(0);
+}
+  
