@@ -1,0 +1,805 @@
+/* Main Styles */
+
+body {
+    font-family: "Poppins", Helvetica, sans-serif;
+    background-color: #fcf8f1;
+    color: #1b1b1b;
+    margin: 0;
+    font-weight: light;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1{
+    font-family: "Photograph Signature", Helvetica, sans-serif;
+    font-size: 8vw;
+}
+
+h2{
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+/* Nav Styles Learned from Udemy https://www.youtube.com/watch?v=5bMdjkfvONE */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.left-side {
+    margin-left: 2rem;
+}
+
+.brand a {
+    font-family: "Photograph Signature", Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #1b1b1b;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.brand a:hover, .brand a:focus {
+    color: #c57171;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 2rem;
+}
+
+.nav-link-wrapper {
+    height: 1.5rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease-in;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s ease-in;
+    font-size: 0.9rem;
+}
+
+.nav-link-wrapper:hover, .nav-link-wrapper:focus{
+    border-bottom: 1px solid #1b1b1b;
+}
+
+.nav-link-wrapper a:hover, .nav-link-wrapper a:focus{
+    color: black;
+}
+
+@media (max-width: 22rem) {
+    
+    .left-side {
+        margin-left: 0.5rem;
+    }
+    
+    .brand a {
+        font-size: 1rem;
+    }
+
+    .nav-wrapper > .right-side > div {
+        margin-right: 0.5rem;
+    }
+    
+    .nav-link-wrapper a {
+        font-size: 0.8rem;
+    }
+   
+}
+  
+@media (max-width: 67.5rem) {
+
+    #logo{
+        height: 5rem;
+        width: auto;
+    }
+   
+}
+
+@media (max-width: 48.75rem) {
+
+    #logo{
+        height: 3rem;
+        width: auto;
+    }
+   
+}
+
+@media (max-width: 30rem) {
+
+    #logo{
+        height: 2rem;
+        width: auto;
+    }
+   
+}
+
+.continue-button{
+    margin: 2rem;
+    text-align: center;
+}
+
+
+/* Second Page Attributes */
+
+.intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem;
+}
+
+
+.flower img{
+    width: 17vw;
+    position: absolute;
+}
+
+.flower-top{
+  margin-left: 40%;
+}
+.flower-bottom{
+    margin-top: 50%;
+  }
+
+.title-text{
+    margin-left: 7rem;
+    margin-top: 8rem;
+}
+.subtitle-text{
+    margin-top: -5rem;
+    margin-left: 7rem;
+
+}
+
+.subtitle-text h2{
+    font-family: "Poppins Light", Helvetica, sans-serif;
+    max-width: 55rem;
+}
+
+.intro-project{
+    margin: 3rem 2rem 2rem 7rem;
+}
+
+.intro-project h2{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 57.5rem) {
+
+   .title-text h1{
+    font-size: 5rem;
+    }
+    .subtitle-text h2{
+        font-size: 1rem;
+        margin-right: 5rem;
+    }
+    .subtitle-text{
+        margin-top: -3rem;
+      
+    }
+    .intro-project{
+        margin: 3rem 2rem 2rem 7rem;
+    }
+}
+
+@media (max-width: 43.75rem) {
+
+    .title-text{
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+
+    .subtitle-text{
+        margin-left: 3rem;
+    }
+
+    .title-text h1{
+        font-size: 4rem;
+    }
+
+    .subtitle-text h2{
+        margin-top: 3rem;
+        font-size: 0.8rem;
+        margin-right: 3rem;
+    }
+
+    .intro-project{
+        margin: 3rem 2rem 2rem 3rem;
+    }
+
+
+ }
+
+ @media (max-width: 21.875rem) {
+
+    .title-text{
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+
+    .title-text h1{
+        font-size: 3.5rem;
+    }
+
+    .subtitle-text h2{
+        margin-left: -1rem;
+        margin-top: 3rem;
+       font-size: 0.7rem;
+       margin-right: 1rem;
+    }
+
+
+    .intro-project{
+        margin: 2rem;
+    }
+
+ }
+
+ /* Projects Detail in Main Page */
+
+ .projects{
+     margin-top: 8rem;
+ }
+
+ .project-showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+ }
+
+
+ .project-showcase img{
+    width: 70%;
+    margin-left: 4.5rem;
+    border-radius: 1rem;
+ }
+
+ .main-img{
+     transition: 0.3s ease-in-out;
+ }
+
+
+ .main-img:hover, .main-img:focus{
+    transform: scale(1.03);
+}
+
+ .about-project{
+     color: black;
+     text-decoration: none;
+     margin-right: 5rem;
+ }
+
+ .about-project h2{
+    font-family: "Love Board", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.about-project h3{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: -1.3rem;
+}
+
+.project-button{
+    margin-top: 4rem;
+}
+
+.seemore-link{
+    font-weight: bold;
+    font-family: "Love Board", sans-serif;
+    color: black;
+    border: 0.2rem solid #000000;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.4s ease-in-out;
+}
+
+.seemore-link:hover, .prototype-link:focus{
+    text-decoration: none;
+    background-color: #c57171;
+    border-color: #c57171;
+    color: white;
+}
+
+@media (max-width: 76.875rem) {
+    .about-project h2{
+        font-size: 1.5rem;
+    }
+
+    .about-project h3{
+        margin-top: -0.5rem;
+    }
+
+    .seemore-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 61.25rem) {
+    .about-project h2{
+        margin-top: -0.1rem;
+        font-size: 1.3rem;
+    }
+    .seemore-link {
+        font-size: 1rem;
+    }
+
+    .project-button{
+        margin-top: 2rem;
+    }
+    
+}
+
+
+@media (max-width: 52.5rem) {
+
+    .about-project{
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 50.625rem) {
+
+    .project-button{
+        margin-top: 3rem;
+        margin-left: -4rem;
+    }
+    .seemore-link {
+        color: black;
+        border: 0.15rem solid #000000;
+    }
+}
+
+@media (max-width: 45rem) {
+
+    .about-project {
+        margin-right: 1rem;
+        margin-left: -0.7rem;
+        margin-top: 0rem;
+    }
+
+    .about-project h2{
+        font-size: 0.9rem;
+    }
+    
+    .about-project h3{
+        font-size: 0.8rem;
+        margin-top: -0.4rem;
+    }
+
+    .about-project p{
+        font-size: 0.75rem;
+    }
+
+    .seemore-link {
+        font-size: 0.7rem;
+    }
+
+    .project-button{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+}
+
+@media (max-width: 43.75rem) {
+
+    .project-showcase img{
+        margin-left: 1.5rem;
+    }
+
+}
+
+@media (max-width: 33.75rem) {
+    .project-showcase{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+     }
+
+    .about-project{
+        margin: 1rem 1rem 1rem 2rem;
+
+    }
+
+    .project-showcase img{
+        border-radius: 0.5rem;
+     }
+
+    .about-project h2{
+         font-size: 0.8rem;
+    }
+
+    .about-project h3{
+        font-size: 0.7rem;
+        margin-top: -0.3rem;
+    }
+
+    .about-project p{
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 26.625rem) {
+    .title-text{
+        margin-right: 1rem;
+    }
+    .title-text h1{
+        font-size: 3rem;
+    }
+    
+
+   .about-project{
+       margin-left: 1.7rem;
+   }
+
+}
+
+@media (max-width: 21.875rem) {
+
+    .project-showcase img{
+        margin: 0rem;
+    }
+    .about-project{
+        margin-left: 0rem;
+    }
+
+}
+
+/* Project Focused */
+
+.project-brief{
+    text-align: center;
+    padding: 2rem 0rem 1rem 0rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-brief p{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.text-link{
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    color: #c57171;
+}
+
+.text-link:hover, .text-link:focus{
+    color:black;
+    text-decoration: underline;
+}
+
+.project-brief img{
+   width: 90%;
+   border-radius: 2rem;
+   height: auto;
+}
+
+.project-brief h1{
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.project-brief h2{
+    font-family: "Love Board", sans-serif;
+    font-size: 1.2rem;
+}
+
+.project-details{
+    padding: 2rem 0rem 1rem 0rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-details h2{
+   text-align: left;
+}
+
+
+.line-break{
+
+    margin: 1em 0;
+    opacity: 70%;
+
+}
+
+.breakdown h2{
+    margin-top: 5rem;
+}
+
+
+.research img{
+    max-width: 40%;
+    height: auto;
+    margin: 1rem;
+}
+
+.ideation img{
+    max-width: 60%;
+    height: auto;
+}
+
+.wireframe img{
+    border-radius: 1rem;
+    margin-top: 1rem;
+    max-width: 40%;
+    height: auto;
+}
+
+.testing img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.visual img{
+    max-width: 50%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.finalprot img{
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+
+.project-details p{
+    line-height: 2rem;
+    text-align: left;
+}
+
+
+
+.prototype-button{
+    margin-top: 4rem;
+   
+}
+
+.prototype-link{
+    font-weight: bold;
+    font-family: "Love Board", sans-serif;
+    color: black;
+    border: 0.2rem solid #000000;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.4s ease-in-out;
+}
+
+.prototype-link:hover, .prototype-link:focus{
+    text-decoration: none;
+    background-color: #c57171;
+    border-color: #c57171;
+    color: white;
+}
+
+/* media for detailed page */
+
+@media (max-width: 67rem){
+    .prototype-link{
+        font-size: 1rem;
+    }
+    .breakdown h2 {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 46.25rem){
+    .project-brief img{
+        border-radius: 1rem;
+    }
+    .project-brief h1 {
+        font-size: 3rem;
+        margin: 1.5rem;
+    }
+    .four-column-grid h2{
+        font-size: 1rem;
+    }
+    .four-column-grid li{
+        font-size: 0.9rem;
+    }
+
+    .project-details img{
+        border-radius: 0.5rem;
+        max-width: 80%;
+    }
+    .breakdown h2 {
+        margin-top: 3rem;
+    }
+    .prototype-button {
+        margin-top: 2rem;
+    }
+    .prototype-link{
+        border: 0.15rem solid #000000;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 43.75rem){
+    
+    .project-details h2{
+        font-size: 1rem;
+    }
+    .project-details p{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width: 32rem){
+    
+   .project-brief h1{
+       font-size: 2rem;
+   }
+   .four-column-grid{
+    width: 90%;
+    }
+   .four-column-grid h2{
+    font-size: 0.9rem;
+    }
+    .four-column-grid li{
+        font-size: 0.8rem;
+    }
+    .project-details {
+        margin-top: -1rem;
+    }
+}
+
+/* About Page */
+
+.about-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+ }
+
+ .about-section img{
+    width: 70%;
+    margin-left: 3.5rem;
+    border-radius: 1rem;
+ }
+
+.about-details{
+    padding: 2rem 0rem 1rem 0rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro-divider{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-image{
+    width: 100%;
+    height: auto;
+}
+
+.about-image img{
+    -webkit-border-radius:5%;
+}
+
+.about-myself{
+    margin-top: -3rem;
+}
+
+.about-myself h1{
+    font-size: 6vw;
+}
+
+
+.about-myself p{
+    margin-top: -1rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/* media for about page */
+
+@media (max-width: 69.7rem){
+    .about-myself p{
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+        padding: 0.3rem;
+        line-height: 1.8rem;
+    }
+
+    .about-section img{
+        width: 90%;
+        margin-left: 0rem;
+        border-radius: 1rem;
+     }
+}
+
+@media (max-width: 62.5rem){
+    .about-myself p{
+        font-size: 0.8rem;
+        margin-top: -1rem;
+        padding: 0.3rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 62.5rem){
+    .about-myself p{
+        font-size: 0.7rem;
+        padding: 0.3rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 37.5rem){
+    .about-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+     }
+
+     .about-myself h1 {
+        font-size: 2.5rem;
+        margin-top: 4rem;
+    }
+}
+
+
+
+
+/* footer */
+.below{
+   text-align: center;
+   margin: 1rem;
+}
+
+.below-text a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s ease-in;
+  
+}
+
+.below-text a:hover, .below-text a:focus{
+    text-decoration: underline;
+}
+
+
+/* Citations */
+.citations{
+    margin: 2rem;
+}
+
+.citations p{
+    font-size: 0.8rem;
+}
+
+/* try using the max-width for the about text */

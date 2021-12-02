@@ -1,0 +1,59 @@
+/* SVG Styling made by Vivus-Instant */
+
+#logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 7rem;
+    width: auto;
+}
+
+
+.BspewsIP_15{
+    stroke-dasharray:229 231;stroke-dashoffset:230;animation:BspewsIP_draw 2000ms ease-in-out 500ms forwards;
+}
+.BspewsIP_16{
+    stroke-dasharray:471 473;stroke-dashoffset:472;animation:BspewsIP_draw 2000ms ease-in-out 533ms forwards;
+}
+.BspewsIP_17{
+    stroke-dasharray:151 153;stroke-dashoffset:152;animation:BspewsIP_draw 2000ms ease-in-out 566ms forwards;
+}
+.BspewsIP_18{
+    stroke-dasharray:145 147;stroke-dashoffset:146;animation:BspewsIP_draw 2000ms ease-in-out 600ms forwards;
+}
+.BspewsIP_19{stroke-dasharray:247 249;stroke-dashoffset:248;animation:BspewsIP_draw 2000ms ease-in-out 633ms forwards;
+}
+.BspewsIP_20{stroke-dasharray:212 214;stroke-dashoffset:213;animation:BspewsIP_draw 2000ms ease-in-out 666ms forwards;
+}
+.BspewsIP_21{
+    stroke-dasharray:140 142;stroke-dashoffset:141;animation:BspewsIP_draw 2000ms ease-in-out 700ms forwards;
+}
+.BspewsIP_22{
+    stroke-dasharray:140 142;stroke-dashoffset:141;animation:BspewsIP_draw 2000ms ease-in-out 733ms forwards;
+}
+.BspewsIP_23{
+    stroke-dasharray:212 214;stroke-dashoffset:213;animation:BspewsIP_draw 2000ms ease-in-out 766ms forwards;
+}
+.BspewsIP_24{stroke-dasharray:293 295;stroke-dashoffset:294;animation:BspewsIP_draw 2000ms ease-in-out 800ms forwards;
+}
+.BspewsIP_25{
+    stroke-dasharray:175 177;stroke-dashoffset:176;animation:BspewsIP_draw 2000ms ease-in-out 833ms forwards;
+}
+.BspewsIP_26{
+    stroke-dasharray:141 143;stroke-dashoffset:142;animation:BspewsIP_draw 2000ms ease-in-out 866ms forwards;
+}
+.BspewsIP_27{
+    stroke-dasharray:212 214;stroke-dashoffset:213;animation:BspewsIP_draw 2000ms ease-in-out 900ms forwards;
+}.BspewsIP_28{
+    stroke-dasharray:140 142;stroke-dashoffset:141;animation:BspewsIP_draw 2000ms ease-in-out 933ms forwards;
+}
+.BspewsIP_29{
+    stroke-dasharray:151 153;stroke-dashoffset:152;animation:BspewsIP_draw 2000ms ease-in-out 966ms forwards;
+}
+.BspewsIP_30{
+    stroke-dasharray:229 231;stroke-dashoffset:230;animation:BspewsIP_draw 2000ms ease-in-out 1000ms forwards;
+}
+
+@keyframes BspewsIP_draw{100%{stroke-dashoffset:0;}}@keyframes BspewsIP_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}
+  
